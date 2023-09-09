@@ -14,6 +14,9 @@ nav{
     align-items: center;
     margin-right: 30px;
 }
+#btn-sign{
+    background-color: darkgoldenrod;
+}
 #title-gamer{
     font-size: 40px;
     margin-left: 20px;
@@ -88,6 +91,10 @@ button{
    
     text-align: right;
 }
+ #gamer-button{
+   text-align: right;
+    background-color: chartreuse;
+ }
 #banner2-img{
     width: 600px;
     padding-right: 50px;
