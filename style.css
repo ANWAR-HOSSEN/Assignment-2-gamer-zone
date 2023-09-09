@@ -1,0 +1,361 @@
+header{
+    background-color: aquamarine;
+    padding: 30px  ;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#nav-title{
+    display: flex;
+    /* margin-left: 30px; */
+    
+    align-items: center;
+    margin-right: 30px;
+}
+#title-gamer{
+    font-size: 40px;
+    margin-left: 20px;
+}
+#yt-icon{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#icon-media{
+    margin-right: 20px; 
+
+   border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+#title-color{
+    color: brown;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+   
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+
+}
+button{
+    background-color: rgb(84, 198, 198);
+    color: whitesmoke;
+    padding:  15px;
+    margin:  10px;
+    border-radius: 10px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+}
+#banner-img{
+    width: 600px;
+    height: 400px;
+  
+}
+#goat-item{
+    font-size: 4.5em;
+    color:slateblue ;
+    font-weight: 700;
+}
+.icon-color{
+    color: brown;
+    margin-right: 10px;
+}
+.banner-2{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+}
+#gamer-heading{
+    font-weight: 900;
+    color: darkgreen;
+    text-align: right;
+}
+#gamer-text{
+   
+    text-align: right;
+}
+#banner2-img{
+    width: 600px;
+    padding-right: 50px;
+    padding-top: 30px;
+  
+}
+#unleash-text{
+    font-size: 30px;
+    font-weight: 300;
+}
+#online-game{
+  margin: 20px;
+    text-align: center;
+   
+   color: salmon;
+}
+.card-img{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    
+    overflow: hidden;
+    border: 1px solid #d01818;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+.overlay {
+    position: absolute;
+     top: 0; */
+     left: 0; 
+     width: 80%; 
+     height: 100%; 
+    background-color: rgba(0, 0, 0, 0.7); 
+     display: flex; 
+     flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+/* Style the icon */
+.icon {
+    font-size: 24px; 
+}
+
+/* Style the text */
+.text {
+    font-size: 18px; 
+    margin-top: 10px; 
+}
+
+/* Show the overlay on hover */
+.card:hover .overlay {
+    opacity: 1;
+}
+.banner-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner3-img {
+    width: 500px;
+   
+    padding-left: 200px;
+    padding-top: 30px;
+
+}
+#banner-img{
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+#banner3-img{
+    width: 350px;
+}
+#overlay-img{
+    position: relative;
+    width: 250px;
+    
+    top: 100px;
+    right: 500px;
+}
+
+.game-corner{
+    padding: 150px;
+  
+    display: grid;
+    grid-template-columns: repeat(5, 220px);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.game-items:hover{
+    border :2px solid yellow;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.game-items{
+    display: flex;;
+}
+.games-title{
+    font-weight: 900;
+    margin-left: 20px;
+    
+}
+#footer{
+    padding: 100px;
+    background-color:rgb(26, 3, 43) ;
+}
+#footer-title{
+    display: flex;
+   align-items:baseline;
+    margin-right: 30px;
+justify-content: center;
+   
+}
+#font-color{
+    color: white;
+}
+.footer-description{
+    display: flex;
+    color: white;
+    gap: 30px;
+    justify-content: center;
+   font-weight: 900;
+    
+}
+#footer-icon{
+    display: flex
+    margin-left: 2000px;
+    color: white;
+    text-align: center;
+}
+#footer-icon > i{
+    padding-top: 40px;
+    font-size: 40px;
+   margin-left: 40px;  
+}
+#f-icon{
+
+   /
+
+}
+#footer-tandc{
+  display: flex;
+    color: gray;
+ margin-top: 20px;
+ gap: 30px;
+ justify-content: center;
+}
+#footer-bottomline{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    gap:  20px;
+}
+/* Responsive styles for small devices (max-width: 576px) */
+@media screen and (max-width: 576px) {
+    header {
+         padding: 10px;
+         
+    }
+    nav {display: flex; 
+        flex-direction: column;
+       
+        }
+        nav > ul{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            padding-top: 20px;
+           
+        }
+        .banner{
+            display: flex;
+            flex-direction: column;
+        }
+        .banner-2{
+            display: flex;
+            flex-direction: column-reverse;
+             background-color: goldenrod; 
+            padding: 10px;
+        }
+        #banner2-img{
+            
+            width: 400px;
+        }
+        #banner-img{
+            width: 400px;
+        }
+        .card-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .banner-3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #banner-img {
+            width: 300px;
+           
+            
+        }
+    
+        #overlay-img {
+            
+        }
+        #overlay-img{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            
+            top: 250px;
+            right: 400px;   
+    }
+    #banner-overlay{
+        display: flex;
+        
+       
+    }
+
+    .game-corner{
+        padding-top: 150px;
+       
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-description{
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+    }
+    #footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+    }
+    #footer-tandc{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        align-items: center;
+        justify-content: center;     
+    }
+    #footer-bottomline{ 
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    #footer-bottomline > p{
+    font-size: 1.5rem;
+   
+    }
+#footer-bottom{
+    font-size: 2rem;
+}
+
+}
+
+
+       
